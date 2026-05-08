@@ -1,0 +1,21 @@
+---
+title: 'Building this site'
+date: '2026-05-03'
+tags: ['nextjs', 'github-pages']
+draft: false
+summary: 'How the blog is structured, why it uses a static export, and what I trimmed to make deployment boring.'
+authors: ['default']
+layout: PostLayout
+---
+
+The site runs on the Tailwind Next.js Starter Blog template because it already solves the parts I do not want to rebuild by hand: MDX content, tags, search, and a clean reading layout.
+
+For GitHub Pages, I kept the site static. That meant removing server-only pieces, turning off the newsletter route, and making sure the build can run with a base path. The workflow injects the deployment URL at build time so the metadata stays correct without hardcoding it in the source.
+
+That gives me a simple deployment story:
+
+1. Write a post in `data/blog`.
+2. Push to the repository.
+3. Let GitHub Actions build and publish the static output.
+
+It is intentionally boring, which is exactly what I want from a blog deployment.

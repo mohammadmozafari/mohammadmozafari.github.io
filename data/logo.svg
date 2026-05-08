@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Mohammad blog logo">
+  <defs>
+    <linearGradient id="logoGradient" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#logoGradient)" />
+  <path d="M14 33V15h4l6 10 6-10h4v18h-4V23l-6 10-6-10v10z" fill="#ffffff" />
+</svg>
