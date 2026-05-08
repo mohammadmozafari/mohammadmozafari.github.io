@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system',
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
-  siteRepo: process.env.NEXT_PUBLIC_SITE_REPO || 'https://github.com/mohammadmozafari/my-blog',
+  siteRepo: process.env.NEXT_PUBLIC_SITE_REPO || 'https://github.com/mohammadmozafari/mohammadmozafari.github.io',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: '',
